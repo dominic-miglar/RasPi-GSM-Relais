@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4680,6 +4680,11 @@ X3-4 ... GND                        </text>
 X3-6 ... +5V
 X3-7 ... GPIO14 / UART TXD
 X3-8 ... GPIO15 / UART RXD</text>
+<text x="185.42" y="55.88" size="2.54" layer="94">AUTHOR:</text>
+<text x="213.36" y="50.8" size="2.54" layer="94">dominic.miglar@w1r3.net</text>
+<text x="213.36" y="55.88" size="2.54" layer="94">Dominic Miglar</text>
+<text x="222.07" y="36.76" size="2.54" layer="94" font="fixed">1</text>
+<text x="272.85" y="32.65" size="2.54" layer="94">0.1</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="109.22" y="142.24"/>
